@@ -1,0 +1,91 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    background-color: #000000ad; /* Fundo preto */
+    color: #fff; /* Texto branco */
+    padding: 20px; /* Espaçamento interno para o conteúdo */
+}
+
+p {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    border: 2px solid #E3F2FD; /* Azul */
+    background: #2196F3; /* Azul claro */
+    color: #fff; /* Azul */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-radius: 6px;
+    padding: 10px 20px; /* Espaçamento interno */
+    display: inline-block;
+    cursor: pointer;
+    transition: all 0.3s ease; /* Transição suave */
+}
+
+p:hover {
+    background: #fff; /* Azul */
+    color: #2196F3; /* Branco */
+}
+
+button {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    padding: 10px 20px;/* Define estilos para o corpo do documento */
+    body {
+        font-family: "Helvetica Neue", Helvetica, sans-serif; /* Define a família de fontes */
+        background-color: #000000ad; /* Define o fundo como preto com transparência */
+        color: #fff; /* Define a cor do texto como branco */
+        padding: 20px; /* Adiciona espaçamento interno para o conteúdo */
+    }
+    
+    /* Define estilos para parágrafos */
+    p {
+        font-family: "Helvetica Neue", Helvetica, sans-serif; /* Define a família de fontes */
+        text-transform: uppercase; /* Converte texto para maiúsculas */
+        text-align: center; /* Alinha texto ao centro */
+        border: 2px solid #E3F2FD; /* Define borda azul */
+        background: #2196F3; /* Define fundo como azul claro */
+        color: #fff; /* Define cor do texto como branco */
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona sombra suave */
+        border-radius: 6px; /* Adiciona bordas arredondadas */
+        padding: 10px 20px; /* Adiciona espaçamento interno */
+        display: inline-block; /* Define como bloco em linha */
+        cursor: pointer; /* Altera o cursor ao passar por cima */
+        transition: all 0.3s ease; /* Adiciona transição suave a todas as propriedades */
+    }
+    
+    /* Define estilos para parágrafos quando o mouse passa por cima */
+    p:hover {
+        background: #fff; /* Muda o fundo para branco */
+        color: #2196F3; /* Muda a cor do texto para azul */
+    }
+    
+    /* Define estilos para botões */
+    button {
+        font-family: "Helvetica Neue", Helvetica, sans-serif; /* Define a família de fontes */
+        font-size: 16px; /* Define o tamanho da fonte */
+        text-transform: uppercase; /* Converte texto para maiúsculas */
+        padding: 10px 20px; /* Adiciona espaçamento interno */
+        border: none; /* Remove a borda */
+        border-radius: 6px; /* Adiciona bordas arredondadas */
+        background-color: #2196F3; /* Define fundo azul */
+        color: #fff; /* Define cor do texto como branco */
+        cursor: pointer; /* Altera o cursor ao passar por cima */
+        transition: background-color 0.3s ease; /* Adiciona transição suave à cor de fundo */
+    }
+    
+    /* Define estilos para botões quando o mouse passa por cima */
+    button:hover {
+        background-color: #0D47A1; /* Muda a cor de fundo para azul mais escuro */
+    }
+    
+    border: none;
+    border-radius: 6px;
+    background-color: #2196F3; /* Azul */
+    color: #fff; /* Texto branco */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transição suave */
+}
+
+button:hover {
+    background-color: #0D47A1; /* Azul mais escuro ao passar o mouse */
+}
